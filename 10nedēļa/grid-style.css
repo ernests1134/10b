@@ -1,0 +1,47 @@
+#main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px; 
+    gap: 5px;
+    background-color: greenyellow;
+}
+
+#main-container >div { /* DJQDDWQ */
+    border-radius: 3px;
+    border: 1px solid greenyellow
+
+}
+
+#item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: aquamarine;
+
+    }
+#item2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+     background-color: blue;
+    }
+ #item3{
+     background-color: brown;
+    }
+ #item4{
+     background-color: blueviolet;
+    }
+ #item5{
+     background-color: yellow;
+    }
+#itm6{
+    background-color: orange;
+    }
+#item7{
+      background-color: black;
+    }
+#item8{
+     background-color: green;
+    }
+#item9{
+      background-color: violet;
+    }
