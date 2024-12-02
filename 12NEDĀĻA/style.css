@@ -1,0 +1,32 @@
+#main- container{
+    display: flex;
+}
+#side-container{
+    width: 30%;
+}
+photo-container{
+    display: grid;
+    width:70%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+}
+#hederP{
+    text-align: center;
+}
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#item3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#item4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+    
